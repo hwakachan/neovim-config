@@ -12,4 +12,7 @@ return require('packer').startup(function(use)
     'kyazdani42/nvim-tree.lua',
     requires = 'kyzdani42/nvim-web-devicons'
   }
+  use {'windwp/nvim-ts-autotag'}
+  use {'p00f/nvim-ts-rainbow'}
+  use {'windwp/nvim-autopairs'}
 end)
