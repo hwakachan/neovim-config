@@ -8,4 +8,8 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
   use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = 'kyzdani42/nvim-web-devicons'
+  }
 end)
