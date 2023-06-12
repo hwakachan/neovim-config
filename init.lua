@@ -12,4 +12,3 @@ require('colorizer-config')
 require('lsp')
 vim.cmd('colorscheme nord')
 
-

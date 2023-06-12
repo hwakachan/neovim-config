@@ -31,4 +31,10 @@ return require('packer').startup(function(use)
   use 'hrsh7th/vim-vsnip'
   use 'onsails/lspkind-nvim'
   use 'norcalli/nvim-colorizer.lua'
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup{current_line_blame = true}
+    end
+  }
 end)
